@@ -6,7 +6,9 @@ import (
 
 func TestCreateDirIfNotExist(t *testing.T) {
 
-
-	CreateDirIfNotExist("/tmp/","/test/test2/test.html"	
+	CreateDirForFile("/tmp/","test/test2/test.html")
+	CreateDirForDir("/tmp/","test3/test4")	
+//	CreateDirIfNotExist("/tmp/","test3/test4")	
+		
 }
 
